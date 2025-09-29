@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML #01</title>
+    <style>
+        .picture {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px; /* jarak horizontal */
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+
+        .information {
+            margin-top: 10px;
+        }
+
+        .information .name{
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 8px
+        }
+
+        .information .detail{
+            font-size: 15px;
+            color: black;
+            margin-bottom: 2px;
+        }
+
+         .information .detail a {
+            color: inherit;           /* warisan warna teks parent */
+            text-decoration: none;    /* hilangkan garis bawah */
+        }
+            h1 {
+            text-align: left;    /* rata kiri */
+            margin-left: 10px;   /* jarak dari kiri, sama seperti foto */
+            margin-top: 20px;    /* jarak dari foto+info */
+            font-size: 20px;
+            margin-bottom: 5px;
+            color: darkblue;
+        }
+        
+            p {
+            text-align: left;    /* rata kiri */
+            margin-left: 10px;   /* jarak dari kiri, sama seperti foto */
+            margin-top: 1px;    /* jarak dari foto+info */
+            font-size: 15px;
+        }
+    </style>
+</head>
+</body>
+    <div class="picture">
+        <img src="3x4 c.jpg" style="width: 100px; height: 128px;border-radius: 100%;">
+        <div class="information">
+            <div class="name">黃福颯</div>
+            <div class="detail">Address: DKI Jakarta, Indonesia</div>
+            <div class="detail">Phone: +886 926 355 474</div>
+            <div class="detail">E-mail: trifosa008@gmail.com</div>
+            <div class="detail">
+                <a href="https://www.linkedin.com/in/trifosa-huang" target="_blank">Linkedin: www.linkedin.com/in/trifosa-huang
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!--PROFILE SUMMARY--> 
+    <h1>Profile Summary</h1>
+    <hr style="margin-left:10px; margin-right:10px; border:0px; height:1px; background-color: #ccc;">
+    <p>Student at Chung Yuan Christian University, Taiwan, majoring in Intelligent Computing and Big data.</p>
+
+    <!--EDUCATION-->
+    <h1>Education</h1>
+    <hr style="margin-top: 8px; margin-left:10px; margin-right:10px; border:0px; height:1px; background-color: #ccc;">
+    <p style="display: flex; justify-content: space-between; margin-left:10px; margin-right:10px; margin-bottom: 5px;">
+        <strong>Chung Yuan Christian University, Taiwan</strong>
+        <span>2025 - Present</span>
+    </p>
+
+   
+    <p style="display: flex; justify-content: space-between; margin-left:10px; margin-bottom:5px; margin-right: 10px; margin-top: 30px;">
+        <strong>Calvin Christian School, Jakarta</strong>
+        <span>2023 - 2025</span>
+    </p>
+    <p>High School </p>
+
+    <!--EXPERIENCE AND SKILLS-->
+    <h1>Experience and Achievements</h1>
+    <hr style="margin-top: 8px; margin-left:10px; margin-right:10px; border:0px; height:1px; background-color: #ccc;">
+    <p style="display: flex; justify-content: space-between; margin-left:10px; margin-right:10px; margin-bottom: 5px;">
+        <strong>Participant in Calvin Institute of Technology Hackathon Competition Basic Program</strong></p>
+    <ul style="margin-top: 0px; margin-left: 25px; padding: 0; list-style: disc; line-height: 1,9; font-size: 15px;"> <!--menandai awal dan akhir daftar bullet.-->
+        <li>Collaborate as a team with 4 students to create a Bible app website</li>
+        <li>Achieved third place among 20+ participating teams</li>
+    </ul>
+    <p style="display: flex; justify-content: space-between; margin-left:10px; margin-right:10px; margin-bottom: 5px;">
+        <strong>Event Photographer - Student Organization, High School</strong></p>
+    <ul style="margin-top: 0px; margin-left: 25px; padding: 0; list-style: disc; line-height: 1,9; font-size: 15px;"> <!--menandai awal dan akhir daftar bullet.-->
+        <li>Documented student activities and events with professional camera</li>
+        <li>Collaborated with event organizers to deliver photos</li>
+    </ul>
+    <p style="display: flex; justify-content: space-between; margin-left:10px; margin-right:10px; margin-bottom: 5px;">
+        <strong>Organizing Student Café Event</strong></p>
+    <ul style="margin-top: 0px; margin-left: 25px; padding: 0; list-style: disc; line-height: 1,9; font-size: 15px;"> <!--menandai awal dan akhir daftar bullet.-->
+        <li>Collaborated with a team to organize and operate a pop-up café for three days</li>
+        <li>Determined product pricing, managed budgeting, and tracked daily profit and expenses</li>
+    </ul> 
+
+    <!--SKILLS-->
+    <h1>SKILLS</h1>
+    <hr style="margin-top: 8px; margin-left:10px; margin-right:10px; border:0px; height:1px; background-color: #ccc;">
+
+    <ul style="margin-top: 0px; margin-left: 25px; padding: 0; list-style: disc; line-height: 1.5; font-size: 15px;"> <!--menandai awal dan akhir daftar bullet.-->
+        <!--li setiap item di dalam daftar-->
+        <li><strong>Photography</strong> - Able to use professional camera</li>
+        <li><strong>Adaptability</strong> - Adjust to changing environments</li>
+        <li><strong>Collaboration</strong> - Works within teams</li>
+        <li><strong>Time management</strong> - Able to prioritize tasks effectively</li>
+        <li><strong>Marketing</strong> - Able to sell product or service to customer</li>
+        <li><strong>Language</strong>: English (TOEIC Score: 825), Indonesian</li>
+        <li><strong>Software and Tools</strong>: Google Workspace (Gdocs, Gsheets), Canva, Capcut</li>
+    </ul>
+    
+    
+    <!--HOBBIES-->
+    <h1>Hobbies</h1>
+    <hr style="margin-top: 8px; margin-left:10px; margin-right:10px; border:0px; height:1px; background-color: #ccc;">
+    <ul style="margin-top: 0px; margin-left: 25px; padding: 0; list-style: disc; line-height: 1.4; font-size: 15px;"> <!--menandai awal dan akhir daftar bullet.-->
+        <li>Playing Ukulele</li>
+        <li>Watching movies or tv series(drama)</li>
+        <li>Listening to music</li>
+<body>
+</html>
